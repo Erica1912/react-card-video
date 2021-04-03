@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import "../style/components/App.css"
-
+import Search from "../components/Search";
+import "../style/components/App.css";
 
 const App = () => (
   <div className="App">
     <Header />
+    <Search />
   </div>
 );
 
